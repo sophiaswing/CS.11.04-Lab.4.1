@@ -19,9 +19,10 @@ class  MainTest {
 
     @org.junit.jupiter.api.Test
     void encryptThis() {
-        assertEquals("72olle 103doo 100ya", Main.encryptThis("Hello good day"));
-        assertEquals("82yade 115te 103o", Main.encryptThis("Ready set go"));
-    }
+       assertEquals("72olle 103doo 100ya", Main.encryptThis("Hello good day"));
+       assertEquals("82yade 115te 103o", Main.encryptThis("Ready set go"));
+   }
+
 
     @org.junit.jupiter.api.Test
     void decipherThis() {
@@ -29,4 +30,7 @@ class  MainTest {
         assertEquals("Ready set go", Main.decipherThis("82yade 115te 103o"));
     }
 
+
+
 }
+
